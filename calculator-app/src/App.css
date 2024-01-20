@@ -1,0 +1,46 @@
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+input {
+  width: 130px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button.clear {
+  background-color: #f44336;
+  color: white;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn{
+width: 50px;
+ 
+}
+
